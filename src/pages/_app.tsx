@@ -1,8 +1,9 @@
-import '@/styles/main.scss';
 import type { AppProps } from 'next/app';
 
-function SplititApp({ Component, pageProps }: AppProps) {
+import '../styles/main.scss';
+
+function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
 }
 
-export default SplititApp;
+export default MyApp;

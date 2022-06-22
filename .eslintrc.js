@@ -34,6 +34,7 @@ module.exports = {
   rules: {
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
+    'react/function-component-definition': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/jsx-props-no-spreading': 'off',
     'import/extensions': [
@@ -47,7 +48,7 @@ module.exports = {
       },
     ],
     'react/jsx-filename-extension': [
-      2,
+      'warn',
       { extensions: ['.jsx', '.tsx', '.js', '.ts'] },
     ],
     'import/no-extraneous-dependencies': [
