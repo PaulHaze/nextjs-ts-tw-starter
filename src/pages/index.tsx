@@ -7,7 +7,8 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>CHANGE THIS</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/logo192.png" />
       </Head>
       <div className="h-[100vh] bg-gradient-to-br from-green-300/50 to-sky-800/50 flex items-center justify-center">
         <div className="bg-white p-md flex justify-center flex-col w-11/12 rounded-lg shadow-2xl">
