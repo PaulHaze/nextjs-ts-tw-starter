@@ -1,6 +1,7 @@
 {
   "name": "nextjs-ts-tw-starter",
   "version": "0.1.0",
+  "packageManager": "pnpm@7.13.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
